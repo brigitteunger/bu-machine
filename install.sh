@@ -22,6 +22,7 @@ apt-get -y install libgtk-3-dev libboost-python-dev
 snap install code --classic
 snap install cmake --classic
 snap install slack --classic
+snap install zoom-client
 
 
 wget https://teams.microsoft.com/downloads/desktopurl?env=production&plat=linux&arch=x64&download=true&linuxArchiveType=deb
