@@ -24,9 +24,6 @@ snap install cmake --classic
 snap install slack --classic
 snap install zoom-client
 
-
-wget https://teams.microsoft.com/downloads/desktopurl?env=production&plat=linux&arch=x64&download=true&linuxArchiveType=deb
-
 # install vpn client pritunl 
 # copied from https://client.pritunl.com/#install
 sudo tee /etc/apt/sources.list.d/pritunl.list << EOF
@@ -35,5 +32,6 @@ EOF
 
 sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com --recv 7568D9BB55FF9E5287D586017AE645C0CF8E292A
 sudo apt-get update
-sudo apt-get install pritunl-client-electron
+sudo apt-get -y install pritunl-client-electron
 
+#teams needs to be manually installed https://www.microsoft.com/de-de/microsoft-365/microsoft-teams/download-app
