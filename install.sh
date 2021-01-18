@@ -20,6 +20,7 @@ apt-get -y install libx11-dev libatlas-base-dev
 apt-get -y install libgtk-3-dev libboost-python-dev
 apt-get -y install libboost-all-dev
 apt-get -y install guvcview
+apt-get -y install texlive-latex-recommended texlive-latex-extra
 
 snap install code --classic
 snap install cmake --classic
