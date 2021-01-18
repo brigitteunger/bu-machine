@@ -21,7 +21,6 @@ apt-get -y install libgtk-3-dev libboost-python-dev
 apt-get -y install libboost-all-dev
 apt-get -y install guvcview
 apt-get -y install texlive-latex-recommended texlive-latex-extra
-apt -y install pandoc
 
 
 snap install code --classic
